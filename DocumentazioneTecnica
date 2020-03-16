@@ -19,40 +19,24 @@
 
   2.1 Prospettive del progetto
 
-      Il software è autonomo e concepito per fini didattici.
+    Il software è autonomo e concepito per fini didattici.
 
-2.2 Funzionalità del prodotto
+  2.2 Funzionalità del prodotto
 
- Il software Weather Map deve:
+    L'autenticator deve:
+- Permettere la registrazione di un nuovo utente;
+- Permettere il login di un utente;
+- Permettere il logout di un utente.
 
-- Visualizzare la mappa;
-- Far scegliere la città da visualizzare;
-- Dare informazioni sulla temperatura attuale della città;
-- Dare informazioni sulla temperatura massima della città;
-- Dare informazioni sulla temperatura minima della città;
-- Dare informazioni sul grado di umidità della città;
-- Dare informazioni sulla presenza di nuvole sulla città.
+  2.3 Caratteristiche utente
 
-2.3 Caratteristiche utente
-
-Il sistema software Weather Map è rivolto ad un'utenza ampia senza necessariamente con conoscenze in ambito informatico.
+    Questo software è rivolto ad un'utenza ampia senza necessariamente con conoscenze in ambito informatico.
 
  2.4 Vincoli
 
-L'unico vincolo imposto dal software è quello di indicare la città del quale avere le informazioni metereologiche.
+    I vincoli sono: inserire le credenziali corrette per effettuare l'accesso.
 
  2.5 Assunzioni e dipendenze
 
   Il software funziona su tutti i browser di ultima generazione e ovviamente, su qualsiasi tipo di sistema operativo.
-© 2020 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Help
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
+
