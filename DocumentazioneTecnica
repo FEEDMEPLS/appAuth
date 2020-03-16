@@ -1,38 +1,25 @@
 1. Introduzione
 
-1.
   1.1 Propositi
 
-Il proposito di questo documento è quello di specificare i requisiti dell'applicazione Weather Map da noi creata per facilitarne
-la realizzazione e la documentazione. Questo documento è redatto seguendo le indicazioni contenute nel documento IEEE Std 830-1993.
+    Il proposito di questo documento è quello di specificare i requisiti della funzionalità "Autentication" da noi creata per facilitarne
+    la realizzazione e la documentazione. Questo documento è redatto seguendo le indicazioni contenute nel documento IEEE Std 830-1993.
 
-1.
   1.2 Obbiettivi
 
-Il nostro obbiettivo è quello di creare un'applicazione che fonda le nostre conoscenze del linguaggio HTML5 e di due API 
-rispettivamente inerenti a mappe e meteo. L'utente può cercare una città mediante una barra di ricerca e la mappa si posizionerà
-su quel luogo, successivamente vengono fornite informazioni riguardanti il meteo della città scelta mediante una tabella. 
-Ad esempio, se la città scelta è Brescia, verranno visualizzati dati come la temperatura (massima e minima), umidità, velocità 
-del vento e nuvolosità.
+    Il nostro obbiettivo è quello di creare un'autenticazione per un sito web. L'applicazione permetterà la registrazione utilizzando e-mail
+    e password, il login e il logout. 
 
-1.
-  1.3 Riferimenti
+  1.3 Panoramica
 
-Le API utilizzate possono essere reperite al seguente link:
-
-[https://leafletjs.com/reference-1.6.0.html](https://leafletjs.com/reference-1.6.0.html)
-
-1.
-  1.4 Panoramica
-
-La restante parte di questo documento contiene una descrizione dettagliata e approfondita delle funzionalità richieste secondo
-gli obiettivi espressi al punto 1.2.
+    La restante parte di questo documento contiene una descrizione dettagliata e approfondita delle funzionalità richieste secondo
+    gli obiettivi espressi al punto 1.2.
 
 2. Descrizione generale
 
-2.1 Prospettive del progetto
+  2.1 Prospettive del progetto
 
-        Il software è autonomo e concepito per fini didattici.
+      Il software è autonomo e concepito per fini didattici.
 
 2.2 Funzionalità del prodotto
 
