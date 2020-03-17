@@ -25,8 +25,7 @@
 
     L'autenticator deve:
 - Permettere la registrazione di un nuovo utente;
-- Permettere il login di un utente;
-- Permettere il logout di un utente.
+- Permettere il login di un utente.
 
   2.3 Caratteristiche utente
 
