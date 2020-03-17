@@ -10,10 +10,11 @@ const flash = require('express-flash')
 const session = require('express-session')
 
 
-const initializePassport = require('./passort-config')
+const initializePassport = require('./passport-config')  
 initializePassport(
     passport,
-    email => users.find(user => user.email === email)
+    email => users.find(user => user.email === email),
+    id => users.find(user => user.id === id)
 )
 
 const users = []
@@ -31,16 +32,18 @@ app.use(passport.session())
 
 
 app.get('/', (req,res) => {
-    res.render('index.ejs' ,{name:'Francesco'})
+    res.render('index.ejs',{name:req.user.name})
 })
 
 app.get('/login', (req,res) => {
     res.render('login.ejs')
 })
 
-app.post('/login', (req,res) => {
-    
-})
+app.post('/login', passport.authenticate('local',{
+    successRedirect: '/',
+    failureRedirect: '/login',
+    failureFlash:  true
+}))
 
 app.get('/register', (req,res) => {
     res.render('register.ejs')
